@@ -3,3 +3,4 @@
 
 - include: add_es_repo.yml
 
+- include: install_es.yml
