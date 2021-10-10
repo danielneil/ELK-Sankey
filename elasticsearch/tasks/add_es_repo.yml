@@ -1,0 +1,9 @@
+--
+
+- name: Download the repo's gpg key
+  shell: rpm --import https://artifacts.elastic.co/GPG-KEY-elasticsearch
+  
+- name: Copying in repo definition file
+  copy:
+   src: elasticsearch.repo
+   dest: /etc/yum.repos.d/
