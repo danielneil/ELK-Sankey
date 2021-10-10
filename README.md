@@ -4,7 +4,7 @@ Demo of a Sankey diagram within a Kibana dashboard - shows carbon emissions per 
 
 # Setup
 
-1. Prepare a vanilla Rocky Server with VirtualBox ([help](https://kifarunix.com/install-rocky-linux-8-on-virtualbox/)).
+1. Prepare a vanilla Rocky Server (or a RHEL) with VirtualBox ([help](https://kifarunix.com/install-rocky-linux-8-on-virtualbox/)).
 
 2. Install ansible ([help](https://www.how2shout.com/linux/how-to-install-ansible-on-rocky-linux-8-or-almalinux/)).
 
