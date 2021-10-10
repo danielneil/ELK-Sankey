@@ -1,6 +1,6 @@
 ---
 - name: Installing ELK-Sankey Platform (Elasticsearch)
-  hosts: elkserver
+  hosts: elasticsearch
   gather_facts: yes
   become: true
 
