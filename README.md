@@ -4,10 +4,8 @@ Demo of a Sankey diagram within a Kibana dashboard - shows carbon emissions per 
 
 Instructions loosely followed: https://www.elastic.co/blog/sankey-visualization-with-vega-in-kibana
 
-Sankey data file - change to requirements: 
-```
-sankey-data.csv
-```
+[Sankey data file.](https://github.com/danielneil/ELK-Sankey/filebeat/sankey-data.csv)
+
 # Environment - Setup
 
 1. Prepare a vanilla Rocky Server (or a RHEL) with VirtualBox ([help](https://kifarunix.com/install-rocky-linux-8-on-virtualbox/)).
