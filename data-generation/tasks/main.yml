@@ -10,4 +10,4 @@
   shell: npm install -g @elastic/makelogs
 
 - name: Generating data
-  shell: /usr/local/bin/makelogs --host 
+  shell: /usr/local/bin/makelogs --host "{{ hostvars[inventory_hostname]['ansible_default_ipv4']['address'] }}:9200"
