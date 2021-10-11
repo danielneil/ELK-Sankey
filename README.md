@@ -13,7 +13,7 @@ Vega [configuration file](https://github.com/danielneil/ELK-Sankey/blob/main/veg
 
 # Setup
 
-1. Prepare a vanilla Rocky Server (or a RHEL) with VirtualBox ([help](https://kifarunix.com/install-rocky-linux-8-on-virtualbox/)).
+1. Prepare a vanilla Rocky Linux (or a RHEL) Server instance with VirtualBox ([help](https://kifarunix.com/install-rocky-linux-8-on-virtualbox/)).
 
 2. Install ansible ([help](https://www.how2shout.com/linux/how-to-install-ansible-on-rocky-linux-8-or-almalinux/)).
 
