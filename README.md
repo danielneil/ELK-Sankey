@@ -14,7 +14,7 @@ Demo of a Sankey diagram within a Kibana dashboard - shows carbon emissions per 
 ```
 git clone https://github.com/danielneil/ELK-Sankey.git && cd ELK-Sankey && ./build.sh
 ```
-5. Navigate to http://<server-ip>:5601 (web credentials are sankey/sankey).
+5. Navigate to http://kibana-server-ip:5601 (web credentials are sankey/sankey).
 
 # Sankey Configuration
  
