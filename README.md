@@ -4,7 +4,7 @@ Demo of a Sankey diagram within a Kibana dashboard - shows carbon emissions per 
 
 These [Instructions](https://www.elastic.co/blog/sankey-visualization-with-vega-in-kibana) to configure the dashboard were loosely followed.
 
-[Sankey data file](https://github.com/danielneil/ELK-Sankey/filebeat/files/sankey-data.csv) - change to fit requirements.
+[Sankey data file](https://github.com/danielneil/ELK-Sankey/blob/main/filebeat/files/sankey-data.csv) - change to fit requirements.
 
 # Setup
 
