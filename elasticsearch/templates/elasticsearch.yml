@@ -67,7 +67,7 @@ network.host: {{ hostvars[inventory_hostname]['ansible_default_ipv4']['address']
 # Pass an initial list of hosts to perform discovery when this node is started:
 # The default list of hosts is ["127.0.0.1", "[::1]"]
 #
-#discovery.seed_hosts: ["host1", "host2"]
+discovery.seed_hosts: ["{{ hostvars[inventory_hostname]['ansible_default_ipv4']['address'] }}"]
 #
 # Bootstrap the cluster using an initial set of master-eligible nodes:
 #
