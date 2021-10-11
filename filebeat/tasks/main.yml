@@ -5,6 +5,11 @@
    name: filebeat 
    state: latest
 
+- name: Copying in our data file to temp directory
+  copy:
+   src: sankey-data.csv
+   dest: /tmp/sankey-data.csv
+
 - name: Starting filebeat
   service:
    name: filebeat
