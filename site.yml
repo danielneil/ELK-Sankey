@@ -3,6 +3,7 @@
 - name: Rolling out common configuration
   hosts: all
   become: true
+  gather_facts: yes
   
   roles:
    - common
@@ -11,6 +12,7 @@
   hosts: elasticsearch
   gather_facts: yes
   become: true
+  gather_facts: yes
 
   roles:
    - elasticsearch
@@ -19,6 +21,7 @@
   hosts: kibana
   gather_facts: yes
   become: true
+  gather_facts: yes
 
   roles:
    - kibana
@@ -27,6 +30,7 @@
   hosts: filebeat
   gather_facts: yes
   become: true
+  gather_facts: yes
 
   roles:
    - filebeat
