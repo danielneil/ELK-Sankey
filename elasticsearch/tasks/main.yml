@@ -16,7 +16,7 @@
   become: yes
 
 - name: Copying in elasticsearch configuration file
-  copy:
+  template:
    src: elasticsearch.yml
    dest: /etc/elasticsearch
   notify: restart-elasticsearch
