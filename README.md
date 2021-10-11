@@ -19,6 +19,6 @@ Demo of a Sankey diagram (using the vega plugin) as Kibana dashboard, using data
 ```
 git clone https://github.com/danielneil/ELK-Sankey.git && cd ELK-Sankey && ./build.sh
 ```
-5. Navigate to http://kibana-server-ip:5601 (web credentials are sankey/sankey).
+5. Navigate to http://kibana-server-ip:5601.
 
 6. Install the Vega [configuration file](https://github.com/danielneil/ELK-Sankey/blob/main/vega-code.json) as per Elastic's [instructions](https://www.elastic.co/blog/sankey-visualization-with-vega-in-kibana).
