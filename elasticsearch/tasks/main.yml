@@ -4,3 +4,8 @@
 - include: add_es_repo.yml
 
 - include: install_es.yml
+
+- name: Starting ES
+  service: 
+   name: elasticsearch
+   state: started
