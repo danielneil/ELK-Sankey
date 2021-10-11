@@ -10,6 +10,12 @@
    src: sankey-data.csv
    dest: /tmp/sankey-data.csv
 
+- name: Copying in filebeat configuration file
+  copy:
+   src: filebeat.yml
+   dest: /etc/filebeat
+  notify: restart-filebeat
+
 - name: Starting filebeat
   service:
    name: filebeat
