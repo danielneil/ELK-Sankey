@@ -4,6 +4,8 @@ Demo of a Sankey diagram (using the vega plugin) as Kibana dashboard. The exampl
 
 These [Instructions](https://www.elastic.co/blog/sankey-visualization-with-vega-in-kibana) to configure the dashboard were loosely followed.
 
+Vega [HJSON configuration file](https://github.com/danielneil/ELK-Sankey/blob/main/vega-code.json) for kibana dashboard configuration.
+
 # Setup
 
 1. Prepare a vanilla Rocky Server (or a RHEL) with VirtualBox ([help](https://kifarunix.com/install-rocky-linux-8-on-virtualbox/)).
