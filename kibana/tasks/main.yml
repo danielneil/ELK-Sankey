@@ -21,7 +21,7 @@
   notify: restart-kibana
 
 - name: Installing vega plugin
-  shell: cd /usr/share/kibana/bin && kibana-plugin https://github.com/nyurik/kibana-vega-vis/releases/download/v1.2.0/vega_vis-1.2.0--for-Kibana-6.2.4.zip 
+  shell: cd /usr/share/kibana/bin && ./kibana-plugin https://github.com/nyurik/kibana-vega-vis/releases/download/v1.2.0/vega_vis-1.2.0--for-Kibana-6.2.4.zip 
 
 - name: Starting kibana
   service:
