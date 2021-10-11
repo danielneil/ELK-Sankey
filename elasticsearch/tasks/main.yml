@@ -1,9 +1,10 @@
 ---
 # tasks file for elasticsearch
 
-- include: add_es_repo.yml
-
-- include: install_es.yml
+- name: Installing elasticsearch
+  package:
+   name: elasticsearch 
+   state: latest
 
 - name: Starting ES
   service: 
