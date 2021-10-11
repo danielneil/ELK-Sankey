@@ -3,4 +3,4 @@
 - name: restart-kibana
   service:
    name: kibana
-   state: restart
+   state: restarted
