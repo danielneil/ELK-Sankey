@@ -1,6 +1,6 @@
 # ELK-Sankey
 
-Demo of a Sankey diagram (using the vega plugin) as Kibana dashboard, using data generated from makelogs. 
+Demo of a Sankey diagram as Kibana dashboard, using data generated from makelogs. 
 
 <p align="center">
   <img src="https://github.com/danielneil/ELK-Sankey/blob/main/sankey-demo.JPG?raw=true">
