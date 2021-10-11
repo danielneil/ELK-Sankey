@@ -25,7 +25,6 @@ filebeat.config.modules:
 
 output.elasticsearch:
   hosts: ["http://hostvars['elasticsearch']['ansible_default_ipv4']['address']:9200"]
-  index: "sankey-%{+yyyy.MM.dd}" 
 
 # ================================== Logging ===================================
 
