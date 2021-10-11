@@ -6,3 +6,19 @@
 
   roles:
    - elasticsearch
+
+- name: Installing ELK-Sankey Platform (kibana - resides on the elasticsearch server)
+  hosts: kibana
+  gather_facts: yes
+  become: true
+
+  roles:
+   - kibana
+
+- name: Installing ELK-Sankey Platform (Filebeat - resides on the collection endpoint system)
+  hosts: filebeat
+  gather_facts: yes
+  become: true
+
+  roles:
+   - filebeat
