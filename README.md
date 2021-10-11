@@ -6,7 +6,7 @@ These [Instructions](https://www.elastic.co/blog/sankey-visualization-with-vega-
 
 [Sankey data file](https://github.com/danielneil/ELK-Sankey/filebeat/sankey-data.csv) - change to fit requirements.
 
-# Environment - Setup
+# Setup
 
 1. Prepare a vanilla Rocky Server (or a RHEL) with VirtualBox ([help](https://kifarunix.com/install-rocky-linux-8-on-virtualbox/)).
 
