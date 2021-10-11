@@ -5,10 +5,10 @@
    name: filebeat 
    state: latest
 
-- name: Copying in our data file to temp directory
-  copy:
-   src: sankey-data.csv
-   dest: /tmp/sankey-data.csv
+#- name: Copying in our data file to temp directory
+#  copy:
+#   src: sankey-data.csv
+#   dest: /tmp/sankey-data.csv
 
 - name: Copying in filebeat configuration file
   template:
