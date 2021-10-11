@@ -1,2 +1,10 @@
 ---
 # tasks file for data-generation
+
+- name: Installing rpm
+  package:
+   name: npm
+   state: latest
+   
+- name: Installing makelogs utility for some test data
+  shell: npm install -g @elastic/makelogs
