@@ -1,8 +1,8 @@
 [elasticsearch]
-elasticsearch ansible_host=127.0.0.1
+elasticsearch-server ansible_host=127.0.0.1
 
 [kibana]
-kibana ansible_host=127.0.0.1
+kibana-server ansible_host=127.0.0.1
 
 [filebeat]
-filebeat ansible_host=127.0.0.1
+filebeat-server ansible_host=127.0.0.1
