@@ -1,4 +1,12 @@
 ---
+
+- name: Rolling out common configuration
+  hosts: all
+  become: true
+  
+  roles:
+   - common
+
 - name: Installing ELK-Sankey Platform (Elasticsearch)
   hosts: elasticsearch
   gather_facts: yes
