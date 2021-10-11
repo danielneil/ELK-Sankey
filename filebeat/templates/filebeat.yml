@@ -24,7 +24,7 @@ filebeat.config.modules:
 # ================================== Outputs ===================================
 
 output.elasticsearch:
-  hosts: ["http://hostvars['elasticsearch']['ansible_default_ipv4']['address']:9200"]
+  hosts: ["http://{{ hostvars['elasticsearch']['ansible_default_ipv4']['address'] }}:9200"]
 
 # ================================== Logging ===================================
 
