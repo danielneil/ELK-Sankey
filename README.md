@@ -1,10 +1,8 @@
 # ELK-Sankey
 
-Demo of a Sankey diagram (using the vega plugin) as Kibana dashboard. The example uses Micky Mouse data.
+Demo of a Sankey diagram (using the vega plugin) as Kibana dashboard. The example uses the data generated from the makelogs example. 
 
 These [Instructions](https://www.elastic.co/blog/sankey-visualization-with-vega-in-kibana) to configure the dashboard were loosely followed.
-
-[Sankey data file](https://github.com/danielneil/ELK-Sankey/blob/main/filebeat/files/sankey-data.csv) - change to fit requirements.
 
 # Setup
 
