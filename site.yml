@@ -9,7 +9,7 @@
    - common
 
 - name: Installing ELK-Sankey Platform (Elasticsearch)
-  hosts: elasticsearch
+  hosts: elasticsearch-server
   gather_facts: yes
   become: true
 
@@ -17,7 +17,7 @@
    - elasticsearch
 
 - name: Installing ELK-Sankey Platform (kibana - resides on the elasticsearch server)
-  hosts: kibana
+  hosts: kibana-server
   gather_facts: yes
   become: true
   
@@ -25,7 +25,7 @@
    - kibana
 
 - name: Installing ELK-Sankey Platform (Filebeat - resides on the collection endpoint system)
-  hosts: filebeat
+  hosts: filebeat-server
   gather_facts: yes
   become: true
 
