@@ -1,0 +1,4 @@
+---
+# tasks file for elasticsearch
+
+- include: add_es_repo.yml
