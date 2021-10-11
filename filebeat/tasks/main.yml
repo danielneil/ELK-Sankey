@@ -11,7 +11,7 @@
    dest: /tmp/sankey-data.csv
 
 - name: Copying in filebeat configuration file
-  copy:
+  template:
    src: filebeat.yml
    dest: /etc/filebeat
   notify: restart-filebeat
