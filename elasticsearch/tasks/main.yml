@@ -15,7 +15,13 @@
    immediate: true
   become: yes
 
-- name: Starting ES
+- name: Copying in elasticsearch configuration file
+  copy:
+   src: elasticsearch.yml
+   dest: /etc/elasticsearch
+  notify: restart-elasticsearch
+ 
+- name: Starting elasticsearch
   service: 
    name: elasticsearch
    state: started
