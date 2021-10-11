@@ -1,6 +1,6 @@
 ---
 
-- name: Rolling out common configuration
+- name: Rolling out common configuration on all hosts
   hosts: all
   become: true
   gather_facts: yes
@@ -8,13 +8,14 @@
   roles:
    - common
 
-- name: Installing ELK-Sankey Platform (Elasticsearch)
+- name: Installing ELK-Sankey Platform (Elasticsearch server instance)
   hosts: elasticsearch-server
   gather_facts: yes
   become: true
 
   roles:
    - elasticsearch
+   - data-generation
 
 - name: Installing ELK-Sankey Platform (kibana - resides on the elasticsearch server)
   hosts: kibana-server
@@ -23,12 +24,3 @@
   
   roles:
    - kibana
-
-- name: Installing ELK-Sankey Platform (Filebeat - resides on the collection endpoint system)
-  hosts: filebeat-server
-  gather_facts: yes
-  become: true
-
-  roles:
-   - filebeat
-   - data-generation
