@@ -2,3 +2,12 @@
 # tasks file for elasticsearch
 
 - include: add_es_repo.yml
+
+- name: Opening up the firewall for kibana 
+  firewalld:
+   zone: public
+   port: 5601/tcp
+   permanent: true
+   state: enabled
+   immediate: true
+  become: yes
