@@ -1,6 +1,6 @@
 # ELK-Sankey
 
-Demo of a Sankey diagram (using the vega plugin) as Kibana dashboard. The example shows carbon emissions per country.
+Demo of a Sankey diagram (using the vega plugin) as Kibana dashboard. The example uses Micky Mouse data.
 
 These [Instructions](https://www.elastic.co/blog/sankey-visualization-with-vega-in-kibana) to configure the dashboard were loosely followed.
 
