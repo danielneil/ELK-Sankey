@@ -1,2 +1,11 @@
 ---
 # tasks file for filebeat
+- name: Installing filebeat
+  package:
+   name: filebeat 
+   state: latest
+
+- name: Starting filebeat
+  service:
+   name: filebeat
+   state: started
