@@ -1,10 +1,10 @@
 # ELK-Sankey
 
-Demo of a Sankey diagram (using the vega plugin) as Kibana dashboard. The example uses the data generated from the makelogs example. 
+Demo of a Sankey diagram (using the vega plugin) as Kibana dashboard, using data generated from makelogs. 
 
 These [Instructions](https://www.elastic.co/blog/sankey-visualization-with-vega-in-kibana) to configure the dashboard were loosely followed.
 
-Vega [HJSON configuration file](https://github.com/danielneil/ELK-Sankey/blob/main/vega-code.json) for kibana dashboard configuration.
+Vega [configuration file](https://github.com/danielneil/ELK-Sankey/blob/main/vega-code.json) for kibana dashboard configuration.
 
 # Setup
 
